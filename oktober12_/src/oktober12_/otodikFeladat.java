@@ -33,7 +33,7 @@ második tagtól) bármely tag és az azt megelozo tag hányadosa állandó; pl.
 			}
 			
 		} catch (InputMismatchException e) {
-			System.err.println("Nem számot adtál meg!"); //
+			System.err.println("Nem számot adtál meg!"); // /*
 	
 		}
 			
