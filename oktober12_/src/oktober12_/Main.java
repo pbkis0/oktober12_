@@ -24,7 +24,7 @@ public class Main {
 		beolvas.close(); */
 		
 		
-		/*Írj programot, amely egész számokat kér be a képernyorol egészen addig,
+		/*1, feladat Írj programot, amely egész számokat kér be a képernyorol egészen addig,
 míg a felhasználó 11-et nem ad meg! Ezután írd ki, hányadik számként
 kaptuk a 11-est! */
 		
@@ -34,7 +34,7 @@ kaptuk a 11-est! */
 			int szamlalo = 0;
 			
 			try {
-				while (feltetel) {
+				while (feltetel) { //feltétel
 					System.out.println("Adj meg egy számot: ");
 				}
 				System.out.println("A 11-es a(z) "); + szamlalo + ". volt!";
