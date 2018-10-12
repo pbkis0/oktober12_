@@ -1,5 +1,6 @@
 package oktober12_;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -34,10 +35,12 @@ kaptuk a 11-est! */
 			int szamlalo = 0;
 			
 			try {
-				while (feltetel) { //feltétel
+				while (szam != 11) { //feltétel
 					System.out.println("Adj meg egy számot: ");
+					szam = beolvas.nextInt();
+					szamlalo++;
 				}
-				System.out.println("A 11-es a(z) "); + szamlalo + ". volt!";
+				System.out.println("A 11-es a(z) "  + szamlalo + ". volt!");
 			} catch  (InputMismatchException e) {
 				System.err.println("Nem számot adtál meg!");
 			} catch (Exception e) {
@@ -47,7 +50,6 @@ kaptuk a 11-est! */
 		
 		
 		}
-		
-	}
+	
 
 
